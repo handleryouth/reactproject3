@@ -1,0 +1,15 @@
+.first-image {
+  width: 100%;
+}
+
+.first-header {
+    position: absolute;
+    font-size: 7vw;
+    top: 14%;
+    left: 24%;
+    color: white;
+}
+
+.firstpage-container {
+  position: relative;
+}

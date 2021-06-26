@@ -1,0 +1,55 @@
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.reverse-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.image-container {
+  flex-basis: 50%;
+}
+
+.image {
+  width: 100%;
+}
+
+.description {
+  width: 80%;
+  position: relative;
+  left: 10%;
+  font-size:2vw;
+}
+
+.description-container {
+  flex-basis: 50%;
+}
+
+/* for column description */
+
+.column-container {
+  display: flex;
+  position: relative;
+  bottom: 0.3rem;
+}
+
+.column {
+  flex-basis: 50%;
+  position: relative;
+}
+
+.column-image {
+  width: 100%;
+}
+
+.column-description {
+  position: absolute;
+  top: 55%;
+  text-align: center;
+  font-size: 1.5vw;
+  width: 38vw;
+  left: 13%;
+}

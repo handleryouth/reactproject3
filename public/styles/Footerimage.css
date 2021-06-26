@@ -1,0 +1,7 @@
+.footerimage{
+    display:flex;
+}
+
+.footerimage img{
+    width: 100%;
+}
