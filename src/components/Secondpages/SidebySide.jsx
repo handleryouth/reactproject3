@@ -7,7 +7,10 @@ function SidebySide(props) {
         <div className="description">
           <h1>{props.header}</h1>
           <p>{props.paragraph}</p>
-          <button>Learn More</button>
+          <div className="underline-link">
+          <a href="">Learn More</a>
+          </div>
+          
         </div>
       </div>
 

@@ -13,11 +13,13 @@
 }
 
 .footer-link a{
-    margin: 0 3vw;
+    margin: 0 1vw;
     text-decoration: none;
     color: black;
+    font-size: 5vw;
 }
 
 .social-media i{
     margin: 0 2vw;
+    font-size: 6vw;
 }

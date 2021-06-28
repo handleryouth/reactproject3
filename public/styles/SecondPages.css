@@ -1,6 +1,8 @@
 .container {
   display: flex;
   align-items: center;
+  position: relative;
+  bottom: 4px;
 }
 
 .reverse-container {
@@ -21,11 +23,32 @@
   width: 80%;
   position: relative;
   left: 10%;
-  font-size:2vw;
+  font-size: 2vw;
 }
 
 .description-container {
   flex-basis: 50%;
+}
+
+.underline-link {
+  position: relative;
+}
+
+.underline-link::before {
+  content: "";
+  background-color: hsl(51, 100%, 49%);
+  position: absolute;
+  z-index: -1;
+  width: 30%;
+  height: 28%;
+  left: -2%;
+  top: 64%;
+  border-radius: 5px;
+}
+
+.underline-link a {
+  text-decoration: none;
+  color: black;
 }
 
 /* for column description */
@@ -52,4 +75,39 @@
   font-size: 1.5vw;
   width: 38vw;
   left: 13%;
+}
+
+@media all and (max-width: 554px) {
+  .container {
+    flex-direction: column-reverse;
+  }
+
+  .reverse-container {
+    flex-direction: column-reverse;
+  }
+
+  .column-container {
+    flex-direction: column;
+  }
+
+  .description {
+    text-align: center;
+    width: 90%;
+    left: 5%;
+    font-size: 4vw;
+  }
+
+  .column-description {
+    font-size: 3vw;
+    width: 70vw;
+    left: 15%;
+  }
+
+  .underline-link::before{
+    left: 35%;
+  }
+
+  .column-container{
+    bottom: auto;
+  }
 }

@@ -2,19 +2,60 @@
 .navbar-link {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .navbar {
-    background-color: transparent;
-    position: absolute;
-    top: 4vw;
-    width: 90%;
-    z-index: 1;
-    left: 7%;
+  background-color: transparent;
+  position: absolute;
+  top: 4vw;
+  width: 90%;
+  z-index: 1;
+  left: 7%;
+}
+
+.navbar-image {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-link button {
+  width: 6rem;
+  height: 2rem;
+  border-radius: 50px;
+  border: none;
+  background-color: white;
 }
 
 .navbar-link a {
   margin: 0 3vw;
   color: white;
   text-decoration: none;
+}
+
+.burger-icon {
+  cursor: pointer;
+}
+
+.additionmenu a {
+  margin: 1rem 0;
+  color: black;
+  font-size: 6vw;
+}
+
+.additionmenu button {
+  background-color: hsl(51, 100%, 49%);
+  border: none;
+  border-radius: 50px;
+  width: 38vw;
+  padding: 1rem;
+  margin: 1rem 0;
+  font-size: 6vw;
+  cursor: pointer;
+}
+
+@media all and (max-width: 553px) {
+  .navbar {
+    left: 6%;
+  }
 }

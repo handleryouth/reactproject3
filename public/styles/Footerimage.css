@@ -5,3 +5,13 @@
 .footerimage img{
     width: 100%;
 }
+
+.footerimage-list{
+    display:flex;
+}
+
+@media all and (max-width:554px){
+    .footerimage-list{
+        flex-direction: column;
+    }
+}
