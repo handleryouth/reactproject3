@@ -1,5 +1,6 @@
 import React from "react";
 
+
 function FooterImage() {
   return (
     <div className="footerimage">

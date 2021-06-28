@@ -3,13 +3,24 @@
 }
 
 .first-header {
-    position: absolute;
-    font-size: 7vw;
-    top: 14%;
-    left: 24%;
-    color: white;
+  position: absolute;
+  font-size: 7vw;
+  top: 14%;
+  left: 24%;
+  color: white;
 }
 
 .firstpage-container {
   position: relative;
+}
+
+@media all and (max-width: 533px) {
+  .first-header {
+    position: absolute;
+    font-size: 17vw;
+    top: 14%;
+    left: 0%;
+    color: white;
+    text-align: center;
+  }
 }

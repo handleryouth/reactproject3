@@ -98,9 +98,9 @@
   }
 
   .column-description {
-    font-size: 3vw;
-    width: 70vw;
-    left: 15%;
+    font-size: 5vw;
+    width: 80vw;
+    left: 10%;
   }
 
   .underline-link::before{
