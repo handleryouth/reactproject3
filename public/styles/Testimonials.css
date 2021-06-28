@@ -25,6 +25,11 @@
 
 .personinfo p {
   margin-top: 0;
+  font-size: 1.2vw;
+}
+
+.testi-container{
+  margin: 0 0.3rem;
 }
 
 @media all and (max-width: 554px) {
@@ -33,8 +38,8 @@
   }
   .testimonial-content {
     flex-direction: column;
-    font-size: 3.2vw;
-    width: 70%;
+    font-size: 4vw;
+    width: 85%;
   }
 
   .avatar-img {

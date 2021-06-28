@@ -80,10 +80,12 @@
 @media all and (max-width: 554px) {
   .container {
     flex-direction: column-reverse;
+    margin-bottom: 2rem;
   }
 
   .reverse-container {
     flex-direction: column-reverse;
+    margin-bottom: 2rem;
   }
 
   .column-container {
@@ -103,11 +105,11 @@
     left: 10%;
   }
 
-  .underline-link::before{
+  .underline-link::before {
     left: 35%;
   }
 
-  .column-container{
+  .column-container {
     bottom: auto;
   }
 }

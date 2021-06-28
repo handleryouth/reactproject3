@@ -2,7 +2,7 @@ import React from "react"
 
 function Content(props){
     return(
-        <div>
+        <div className="testi-container">
             <img className="avatar-img" src={props.avatar} alt="Avatar" />
             <p>{props.paragraph}</p>
             
