@@ -4,7 +4,7 @@
 }
 
 .footerimage img{
-    width: 100%;
+    width: 50%;
 }
 
 .footerimage-list{
@@ -14,5 +14,9 @@
 @media all and (max-width:554px){
     .footerimage-list{
         flex-direction: column;
+    }
+
+    .footerimage img{
+        width: 100%;
     }
 }
