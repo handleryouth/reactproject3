@@ -16,6 +16,8 @@ a {
   left: 0;
   background-color: hsl(168, 34%, 41%);
   z-index: 3;
+  display: flex;
+  justify-content: center;
 }
 
 .loader {
@@ -25,7 +27,6 @@ a {
   position: relative;
   border: 4px solid #fff;
   animation: loader 2s infinite ease;
-  left: 50%;
   top: 22rem;
 }
 
