@@ -1,5 +1,6 @@
 .footerimage{
     display:flex;
+    width:100%;
 }
 
 .footerimage img{
