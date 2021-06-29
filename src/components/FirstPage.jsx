@@ -22,7 +22,7 @@ function FirstPage() {
         }}
       </Media>
 
-      <h1 className="first-header">We are creatives</h1>
+      <h1 className="first-header text-focus-in">We are creatives</h1>
     </div>
   );
 }

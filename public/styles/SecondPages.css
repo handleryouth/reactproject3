@@ -20,10 +20,18 @@
 }
 
 .description {
-  width: 80%;
+  width: 71%;
   position: relative;
-  left: 10%;
-  font-size: 2vw;
+  left: 15%;
+  font-size: 1.5vw;
+}
+
+.description h1{
+  font-family: 'Fraunces', serif;
+}
+
+.description p{
+  color: hsl(210, 4%, 67%);
 }
 
 .description-container {
@@ -32,7 +40,10 @@
 
 .underline-link {
   position: relative;
+  font-family: 'Fraunces', serif;
 }
+
+
 
 .underline-link::before {
   content: "";
@@ -41,7 +52,7 @@
   z-index: -1;
   width: 30%;
   height: 28%;
-  left: -2%;
+  left: -1%;
   top: 64%;
   border-radius: 5px;
 }
@@ -77,6 +88,11 @@
   left: 13%;
 }
 
+.column-description h1{
+  font-family: 'Fraunces', serif;
+}
+
+
 @media all and (max-width: 554px) {
   .container {
     flex-direction: column-reverse;
@@ -111,5 +127,8 @@
 
   .column-container {
     bottom: auto;
+  }
+  .bottom-add{
+    bottom: 0.3rem;
   }
 }

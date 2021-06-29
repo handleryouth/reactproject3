@@ -4,19 +4,6 @@ import Media from "react-media";
 function Navbar() {
   const [state, setState] = useState(false);
 
-  const navbaradd = {
-    position: "absolute",
-    top: "200%",
-    width: "100%",
-    backgroundColor: "white",
-    display: "flex",
-    flexDirection: "column",
-    justifyContent: "center",
-    alignItems: "center",
-    zIndex: "1",
-    padding: "2rem 0",
-  };
-
   function addMenu() {
     setState((prevState) => !prevState);
   }
@@ -45,8 +32,9 @@ function Navbar() {
       </Media>
 
       <div
-        className="additionmenu"
-        style={state ? navbaradd : { display: "none" }}
+        className={`additionmenu navbaradd ${
+          state ? "slide-in-top " : "slide-out-top"
+        }`}
       >
         <a href="">About</a>
         <a href="">Services</a>

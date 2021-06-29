@@ -5,6 +5,7 @@
 
 .testimonial h1 {
   font-size: 4vw;
+  font-family: 'Fraunces', serif;
 }
 
 .testimonial-content {
@@ -24,8 +25,9 @@
 }
 
 .personinfo p {
-  margin-top: 0;
+  margin: .5rem 0;
   font-size: 1.2vw;
+  color:hsl(210, 4%, 67%);
 }
 
 .testi-container{
@@ -42,7 +44,16 @@
     width: 85%;
   }
 
+  .testi-container{
+    margin: 1rem 0;
+  }
+
   .avatar-img {
     width: 17vw;
+  }
+
+  .personinfo p {
+    margin-top: 0;
+    font-size: 3.2vw;
   }
 }

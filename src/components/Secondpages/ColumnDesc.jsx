@@ -2,7 +2,7 @@ import React from "react";
 
 function ColumnDesc(props) {
   return (
-    <div className="column">
+    <div className={`${props.addclass ? props.addclass : ""} column`}>
       <img class="column-image"src={props.background} alt="Background Illustration" />
       <div className="column-description">
         <h1>{props.header}</h1>

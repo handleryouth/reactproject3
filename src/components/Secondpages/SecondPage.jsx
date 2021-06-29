@@ -73,6 +73,7 @@ function SecondPage() {
               ? "/images/mobile/image-photography.jpg"
               : "/images/desktop/image-photography.jpg"
           }
+          addclass="bottom-add"
         />
       </div>
     </div>
