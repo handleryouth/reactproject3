@@ -11,6 +11,12 @@
       crossorigin="anonymous"
     />
 
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -18,7 +24,7 @@
       rel="stylesheet"
     />
 
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico" />
     <link rel="stylesheet" href="./styles//Universal.css" />
     <link rel="stylesheet" href="./styles/Navbar.css" />
     <link rel="stylesheet" href="./styles/FirstPage.css" />
@@ -31,6 +37,16 @@
   </head>
   <body>
     <div id="root"></div>
+
+    <div class="loader-wrapper">
+      <span class="loader"><span class="loader-inner"></span></span>
+    </div>
+
     <script src="../src/index.js"></script>
+    <script>
+      $(window).on("load", function () {
+        $(".loader-wrapper").fadeOut("slow");
+      });
+    </script>
   </body>
 </html>
